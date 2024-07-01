@@ -11,7 +11,9 @@
     <nav
       class="grid grid-cols-12 fixed left-0 right-0 bg-white top-0 items-center py-4 px-4 md:px-10 lg:px-14 xl:px-20 z-10"
     >
-      <div class="logo cursor-default col-span-6 font-extrabold text-2xl">
+      <div
+        class="logo cursor-default col-span-8 font-extrabold text-2xl row-start-1 col-start-1"
+      >
         <h1>Nkemdilim Collins</h1>
       </div>
       <div
@@ -42,7 +44,7 @@
       </div>
 
       <div
-        class="nav-links hidden w-fit md:block col-start-7 lg:col-start-8 xl:col-start-9"
+        class="nav-links hidden w-fit md:block col-start-7 lg:col-start-8 xl:col-start-9 row-start-1"
       >
         <ul class="flex items-center font-medium gap-5">
           <li
@@ -525,7 +527,7 @@
       >
         <div>
           <a
-            class="flex items-center gap-3"
+            class="sm:flex sm:items-center sm:gap-3"
             href="https://www.collinsnkemdilim05.com "
           >
             <img class="w-10" src="assets/email.png" alt="email" />
@@ -533,7 +535,10 @@
           </a>
         </div>
         <div>
-          <a class="flex items-center gap-3" href="https://www.linkedin.com">
+          <a
+            class="sm:flex sm:items-center sm:gap-3"
+            href="https://www.linkedin.com"
+          >
             <img class="w-10 scale-90" src="assets/linkedin.png" alt="email" />
             <h1 class="hover:underline">Linkedin</h1>
           </a>
@@ -561,7 +566,11 @@
         </ul>
       </div>
       <div class="col-span-12 row-span-1 text-center">
-        <p>Copyright &copy; 2024 Nkemdilim Collins. All Rights Reserved</p>
+        <p>
+          Copyright &copy;
+          <span class="hidden sm:block">Nkemdilim Collins</span>2024 . All
+          Rights Reserved
+        </p>
       </div>
     </footer>
   </body>
