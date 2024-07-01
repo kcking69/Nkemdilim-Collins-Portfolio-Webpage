@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="output.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav
+      class="grid grid-cols-12 fixed left-0 right-0 bg-white top-0 items-center py-4 px-4 md:px-10 lg:px-14 xl:px-20 z-10"
+    >
+      <div class="logo cursor-default col-span-6 font-extrabold text-2xl">
+        <h1>Nkemdilim Collins</h1>
+      </div>
+      <div
+        class="hamburger col-span-2 flex flex-col gap-1.5 justify-around cursor-pointer col-start-11 hover:scale-95 transition-all md:hidden"
+      >
+        <span class="span-1 bg-black h-1.5 w-3/5 self-center rounded-md"></span>
+        <span class="span-2 bg-black h-1.5 w-3/5 self-center rounded-md"></span>
+        <span class="span-3 bg-black h-1.5 w-3/5 self-center rounded-md"></span>
+      </div>
+
+      <div
+        class="bg-white links invisible w-fit absolute top-14 text-center py-1 px-5 shadow-lg right-14"
+      >
+        <ul>
+          <li class="py-2 px-2 hover:text-gray-500 hover:underline">
+            <a href="#About">About</a>
+          </li>
+          <li class="py-2 px-2 hover:text-gray-500 hover:underline">
+            <a href="#Experience">Experience</a>
+          </li>
+          <li class="py-2 px-2 hover:text-gray-500 hover:underline">
+            <a href="#Projects">Projects</a>
+          </li>
+          <li class="py-2 px-2 hover:text-gray-500 hover:underline">
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div
+        class="nav-links hidden w-fit md:block col-start-7 lg:col-start-8 xl:col-start-9"
+      >
+        <ul class="flex items-center font-medium gap-5">
+          <li
+            class="py-2 px-2 hover:text-gray-500 hover:underline text-lg underline-offset-4"
+          >
+            <a href="#About">About</a>
+          </li>
+          <li
+            class="py-2 px-2 hover:text-gray-500 hover:underline text-lg underline-offset-4"
+          >
+            <a href="#Experience">Experience</a>
+          </li>
+          <li
+            class="py-2 px-2 hover:text-gray-500 hover:underline text-lg underline-offset-4"
+          >
+            <a href="#Projects">Projects</a>
+          </li>
+          <li
+            class="py-2 px-2 hover:text-gray-500 hover:underline text-lg underline-offset-4"
+          >
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main
+      class="grid grid-cols-12 mt-20 mb-14 md:mt-48 md:flex md:justify-center md:gap-8 md:items-center md:mb-20"
+    >
+      <div class="col-span-12 flex justify-center mb-5 md:col-span-6">
+        <img
+          class="rounded-full w-40 md:w-60 lg:w-80 xl:w-96"
+          src="IMG-20240625-WA0011.jpg"
+          alt="My Profile Picture"
+        />
+      </div>
+
+      <div
+        class="col-span-12 text-center cursor-default items-center md:col-span-6"
+      >
+        <p class="text-lg font-semibold">Hello I'm</p>
+        <h1 class="font-bold text-2xl mb-1 lg:text-3xl">Nkemdilim Collins</h1>
+        <h1 class="text-lg font-medium mb-4 lg:text-xl">
+          Frontend Webdeveloper
+        </h1>
+        <div class="flex gap-1 justify-center mb-4">
+          <a
+            download="Pastel Pink and Brown Clean Web Developer Cv Resume_20240701_090114_0000.png"
+          >
+            <button
+              class="py-2 px-4 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+            >
+              Download CV
+            </button>
+          </a>
+          <a href="">
+            <button
+              class="py-3 px-5 font-semibold hover:scale-95 transition-all rounded-full bg-black text-white"
+            >
+              Contact Info
+            </button>
+          </a>
+        </div>
+        <div class="col-span-12 flex justify-center gap-2">
+          <a href="https://www.linkedin.com/ "
+            ><img
+              class="cursor-pointer transition-all hover:scale-105 w-10"
+              src="assets/linkedin.png"
+              alt="linkedin"
+          /></a>
+          <a href="https://www.github.com/kcking69"
+            ><img
+              class="cursor-pointer transition-all hover:scale-105 w-10"
+              src="assets/github.png"
+              alt="github"
+          /></a>
+        </div>
+      </div>
+    </main>
+
+    <main id="About" class="px-6 grid grid-cols-12 mt-20 mb-14">
+      <div class="col-span-12 text-center mb-10 md:mb-16">
+        <p class="font-medium">Get To Know More</p>
+        <h1 class="font-extrabold text-4xl">About me</h1>
+      </div>
+
+      <div class="col-span-12 flex justify-center mb-8 md:grid md:col-span-4">
+        <img
+          class="w-60 rounded-3xl grayscale md:w-72"
+          src="IMG-20240627-WA0063.jpg"
+          alt=""
+        />
+      </div>
+
+      <div
+        class="col-span-12 grid grid-cols-12 md:col-span-8 md:gap-5 p-4 md:grid-rows-2"
+      >
+        <div
+          class="flex flex-col justify-center text-center col-span-12 border-2 border-black border-solid py-4 rounded-3xl mb-8 md:col-span-6 md:row-start-1"
+        >
+          <img
+            class="w-10 self-center"
+            src="assets/experience.png"
+            alt="experience"
+          />
+          <h1 class="font-bold">Experience</h1>
+          <h1>2+ years</h1>
+          <h1>Frontend Development</h1>
+        </div>
+
+        <div
+          class="flex flex-col justify-center text-center col-span-12 border-2 border-black border-solid py-4 rounded-3xl mb-8 md:col-span-6 md:row-start-1"
+        >
+          <img
+            class="w-10 self-center"
+            src="assets/education.png"
+            alt="experience"
+          />
+          <h1 class="font-bold">Education</h1>
+          <h1>Frontend Developer Bootcamp</h1>
+          <h1>Online Frontend Certification</h1>
+        </div>
+        <div class="col-span-12 md:row-start-2">
+          <p>
+            I got into Web development in the year 2022 right after i graduated
+            from highschool. I've attended a 3 month Frontend bootcamp, but for
+            the most part i am a self taught Frontend Webdeveloper. Within the
+            space from when began till date I've completed a good number of
+            projects, some of which are in the
+            <a class="underline underline-offset-2" href="#Projects"
+              >Projects</a
+            >
+            section below. Most of my time are spent developing my skills and
+            contributing to open source projects
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <main id="Experience" class="grid grid-cols-12 px-6 mb-14 md:gap-3">
+      <div class="col-span-12 text-center mb-5">
+        <h1 class="font-extrabold text-4xl">Experience</h1>
+      </div>
+
+      <div
+        class="col-span-12 border-2 border-black border-solid py-4 rounded-3xl mb-8 md:col-span-6 md:h-fit"
+      >
+        <div class="col-span-12 flex flex-col items-center">
+          <h1 class="font-bold text-lg mb-3 md:mb-6">Frontend Development</h1>
+          <ul
+            class="flex flex-col items-start pr-14 gap-6 md:flex-row md:justify-between md:gap-20 lg:gap-40"
+          >
+            <div class="flex flex-col gap-6 md:gap-10">
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">HTML</h1>
+                  <p>Experienced</p>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">CSS</h1>
+                  <p>Experienced</p>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">SASS</h1>
+                  <p>Intermediate</p>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Tailwindcss</h1>
+                  <p>Experienced</p>
+                </div>
+              </li>
+            </div>
+
+            <div class="flex flex-col gap-6 md:gap-10">
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Javascript</h1>
+                  <p>Experienced</p>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Reactjs</h1>
+                  <p>Intermediate</p>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Typescript</h1>
+                  <p>Basic</p>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Figma</h1>
+                  <p>Basic</p>
+                </div>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="col-span-12 border-2 border-black border-solid py-4 rounded-3xl mb-8 md:col-span-6"
+      >
+        <div class="col-span-12 flex flex-col items-center">
+          <h1 class="font-bold text-lg mb-3 md:mb-6">Other Related Skills</h1>
+          <ul
+            class="flex flex-col items-start gap-6 md:flex-row md:justify-between md:gap-20 lg:gap-40"
+          >
+            <div class="flex flex-col gap-6 md:gap-10">
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Debugging</h1>
+                  <p>Intermediate</p>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Git</h1>
+                  <p>Experienced</p>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Canva</h1>
+                  <p>Experienced</p>
+                </div>
+              </li>
+            </div>
+
+            <div class="flex flex-col gap-6 md:gap-10">
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Capcut</h1>
+                  <p>Experienced</p>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Microsoft Office Suite</h1>
+                  <p>Intermediate</p>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <img class="w-10" src="assets/checkmark.png " alt="checkmark" />
+                <div>
+                  <h1 class="font-bold">Video Filming</h1>
+                  <p>Intermediate</p>
+                </div>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <main id="Projects" class="grid grid-cols-12 mb-24 px-6">
+      <div class="col-span-12 text-center mb-5">
+        <p>Browse My Recent</p>
+        <h1 class="font-extrabold text-4xl">Projects</h1>
+      </div>
+      <div class="grid grid-cols-12 col-span-12 gap-3 transition-all">
+        <div
+          class="pt-4 rounded-3xl border-black border-2 border-solid col-span-12 mb-5 md:col-span-4 px-5"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              class="w-80 rounded-3xl mb-3 hover:scale-105 transition-all"
+              src="XZ, ZX, X AND Z Abstract initial monogram letter alphabet logo design_20240701_093008_0000.png"
+              alt="project-1"
+            />
+          </div>
+          <div class="mb-8 flex flex-col items-center gap-5">
+            <h1 class="font-bold text-2xl">Project One</h1>
+            <div class="flex justify-center gap-3">
+              <a href="https://github.com/kcking69/Products-Filtering-UI">
+                <button
+                  class="py-2 px-7 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  GitHub
+                </button>
+              </a>
+              <a href="https://kcking69.github.io/Products-Filtering-UI">
+                <button
+                  class="py-2 px-4 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pt-5 rounded-3xl border-black border-2 border-solid col-span-12 mb-5 md:col-span-4 px-5"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              class="w-80 rounded-3xl mb-3 hover:scale-105 transition-all"
+              src="XZ, ZX, X AND Z Abstract initial monogram letter alphabet logo design_20240701_093008_0000.png"
+              alt="project-2"
+            />
+          </div>
+          <div class="mb-8 flex flex-col items-center gap-5">
+            <h1 class="font-bold text-2xl">Project Two</h1>
+            <div class="flex justify-center gap-3">
+              <a href="">
+                <button
+                  class="py-2 px-7 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  GitHub
+                </button>
+              </a>
+              <a href="">
+                <button
+                  class="py-2 px-4 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="pt-5 rounded-3xl border-black border-2 border-solid col-span-12 mb-5 md:col-span-4 px-5"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              class="w-80 rounded-3xl mb-3 hover:scale-105 transition-all"
+              src="XZ, ZX, X AND Z Abstract initial monogram letter alphabet logo design_20240701_093008_0000.png"
+              alt="project-3"
+            />
+          </div>
+          <div class="mb-8 flex flex-col items-center gap-5">
+            <h1 class="font-bold text-2xl">Project Three</h1>
+            <div class="flex justify-center gap-3">
+              <a href="">
+                <button
+                  class="py-2 px-7 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  GitHub
+                </button>
+              </a>
+              <a href="">
+                <button
+                  class="py-2 px-4 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="extra-projects hidden pt-5 rounded-3xl border-black border-2 border-solid col-span-12 mb-5 md:col-span-4 px-5"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              class="w-80 rounded-3xl mb-3 hover:scale-105 transition-all"
+              src="XZ, ZX, X AND Z Abstract initial monogram letter alphabet logo design_20240701_093008_0000.png"
+              alt="project-3"
+            />
+          </div>
+          <div class="mb-8 flex flex-col items-center gap-5">
+            <h1 class="font-bold text-2xl">Project Four</h1>
+            <div class="flex justify-center gap-3">
+              <a href="">
+                <button
+                  class="py-2 px-7 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  GitHub
+                </button>
+              </a>
+              <a href="">
+                <button
+                  class="py-2 px-4 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="extra-projects hidden pt-5 rounded-3xl border-black border-2 border-solid col-span-12 mb-5 md:col-span-4 px-5"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              class="w-80 rounded-3xl mb-3 hover:scale-105 transition-all"
+              src="XZ, ZX, X AND Z Abstract initial monogram letter alphabet logo design_20240701_093008_0000.png"
+              alt="project-3"
+            />
+          </div>
+          <div class="mb-8 flex flex-col items-center gap-5">
+            <h1 class="font-bold text-2xl">Project Five</h1>
+            <div class="flex justify-center gap-3">
+              <a href="">
+                <button
+                  class="py-2 px-7 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  GitHub
+                </button>
+              </a>
+              <a href="">
+                <button
+                  class="py-2 px-4 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="extra-projects hidden pt-5 rounded-3xl border-black border-2 border-solid col-span-12 mb-5 md:col-span-4 px-5"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              class="w-80 rounded-3xl mb-3 hover:scale-105 transition-all"
+              src="XZ, ZX, X AND Z Abstract initial monogram letter alphabet logo design_20240701_093008_0000.png"
+              alt="project-3"
+            />
+          </div>
+          <div class="mb-8 flex flex-col items-center gap-5">
+            <h1 class="font-bold text-2xl">Project Six</h1>
+            <div class="flex justify-center gap-3">
+              <a href="">
+                <button
+                  class="py-2 px-7 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  GitHub
+                </button>
+              </a>
+              <a href="">
+                <button
+                  class="py-2 px-4 font-semibold hover:scale-95 transition-all rounded-full border-black border-2 border-solid"
+                >
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-12 text-center">
+          <p class="view-more underline font-medium cursor-pointer">
+            View more
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <main id="Contact" class="grid grid-cols-12 px-6 mb-52">
+      <div class="col-span-12 text-center mb-10">
+        <p class="font-medium">Get in Touch</p>
+        <h1 class="font-extrabold text-4xl">Contact</h1>
+      </div>
+      <div
+        class="col-span-12 mx-auto max-w-screen-md flex gap-3 rounded-xl border-black border-2 border-solid px-5 py-2 md:px-10 lg:px-20 xl:px-24"
+      >
+        <div>
+          <a
+            class="flex items-center gap-3"
+            href="https://www.collinsnkemdilim05.com "
+          >
+            <img class="w-10" src="assets/email.png" alt="email" />
+            <h1 class="hover:underline">collinsnkemdilim05@gmail.com</h1>
+          </a>
+        </div>
+        <div>
+          <a class="flex items-center gap-3" href="https://www.linkedin.com">
+            <img class="w-10 scale-90" src="assets/linkedin.png" alt="email" />
+            <h1 class="hover:underline">Linkedin</h1>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      class="grid grid-cols-12 grid-rows-2 px-6 mb-0 mx-auto max-w-screen-md"
+    >
+      <div class="col-span-12 row-span-1 font-medium justify-center mb-5">
+        <ul class="flex justify-around text-center">
+          <li class="py-2 px-2 hover:text-gray-500 hover:underline">
+            <a href="#About">About</a>
+          </li>
+          <li class="py-2 px-2 hover:text-gray-500 hover:underline">
+            <a href="#Experience">Experience</a>
+          </li>
+          <li class="py-2 px-2 hover:text-gray-500 hover:underline">
+            <a href="#Projects">Projects</a>
+          </li>
+          <li class="py-2 px-2 hover:text-gray-500 hover:underline">
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-span-12 row-span-1 text-center">
+        <p>Copyright &copy; 2024 Nkemdilim Collins. All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
